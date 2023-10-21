@@ -1,0 +1,29 @@
+.eachFollower {
+  width: 100%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: #333;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.eachFollower:hover {
+  background-color: rgba(0, 65, 90, 0.15);
+}
+
+.followerImage {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.followerName {
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: #333;
+}

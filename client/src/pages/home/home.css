@@ -1,0 +1,10 @@
+.mainContainer {
+  width: 100%;
+  position: relative;
+}
+
+.subContainer {
+  width: 100%;
+  display: flex;
+  background-color: #eee;
+}
